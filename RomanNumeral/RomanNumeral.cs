@@ -1,15 +1,19 @@
+using System.Text;
+
 namespace RomanNumerals
 {
     public class RomanNumeral
     {
         public string Convert(int number)
         {
-            if (number == 2)
+            StringBuilder result = new StringBuilder();
+
+            for (int i = 1; i <= number; i++)
             {
-                return "II";
+                result.Append("I");
             }
-            
-            return "I";
+
+            return result.ToString();
         }
     }
 }
