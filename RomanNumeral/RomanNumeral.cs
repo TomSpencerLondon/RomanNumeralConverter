@@ -10,6 +10,15 @@ namespace RomanNumerals
         {
             Dictionary<int, string> values = new Dictionary<int, string>
             {
+                {1000, "M"},
+                {900, "CM"},
+                {500, "D"},
+                {400, "CD"},
+                {100, "C"},
+                {90, "XC"},
+                {50, "L"},
+                {40, "XL"},
+                {10, "X"},
                 {5, "V"},
                 {4, "IV"},
                 {1, "I"}
@@ -22,14 +31,13 @@ namespace RomanNumerals
 
             StringBuilder result = new StringBuilder();
 
-            int num = number;
 
-            foreach (var v in RomanValueKey())
+            foreach (var item in RomanValueKey())
             {
-                while (num >= v.Key)
+                while (number >= item.Key)
                 {
-                    result.Append(v.Value);
-                    num -= v.Key;    
+                    result.Append(item.Value);
+                    number -= item.Key;    
                 }
             }
 

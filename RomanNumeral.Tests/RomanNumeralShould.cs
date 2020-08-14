@@ -13,6 +13,8 @@ namespace RomanNumerals.Tests
         [TestCase(4, "IV")]
         [TestCase(5, "V")]
         [TestCase(6, "VI")]
+        [TestCase(14, "XIV")]
+        [TestCase(1994, "MCMXCIV")]
         public void return_roman_numeral_for_number(int input, string output)
         {
             Assert.AreEqual(output, romanNumeral.Convert(input));
