@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
 
@@ -26,12 +27,24 @@ namespace RomanNumerals
 
             return values;
         }
-            public string Convert(int number)
+        
+        public static Dictionary<char, int> ArabicValueKey()
         {
+            Dictionary<char, int> decimals = new Dictionary<char, int>
+            {
+                {'M', 1000},
+                {'D', 500},
+                {'C', 100},
+                {'L', 50},
+                {'X', 10},
+                {'V', 5},
+                {'I', 1}
+            };
 
+            return decimals;
+        }
+        public string Convert(int number){
             StringBuilder result = new StringBuilder();
-
-
             foreach (var item in RomanValueKey())
             {
                 while (number >= item.Key)
@@ -42,6 +55,26 @@ namespace RomanNumerals
             }
 
             return result.ToString();
+        }
+
+        public int Modernise(string numeral)
+        {
+            var array = numeral.ToCharArray();
+            var result = ArabicValueKey()[array.Last()];
+
+            for (int i = numeral.Length - 2; i >= 0; i--)
+            {
+                if (ArabicValueKey()[array[i]] < ArabicValueKey()[array[i + 1]])
+                {
+                    result -= ArabicValueKey()[array[i]];
+                }else {
+                    result += ArabicValueKey()[array[i]];
+                }
+
+            }
+
+            return result;
+
         }
     }
 }

@@ -4,7 +4,7 @@ namespace RomanNumerals.Tests
 {
     public class RomanNumeralShould
     {
-        RomanNumeral romanNumeral = new RomanNumeral();
+        RomanNumeral _romanNumeral = new RomanNumeral();
 
         
         [TestCase(1, "I")]
@@ -17,7 +17,16 @@ namespace RomanNumerals.Tests
         [TestCase(1994, "MCMXCIV")]
         public void return_roman_numeral_for_number(int input, string output)
         {
-            Assert.AreEqual(output, romanNumeral.Convert(input));
+            Assert.AreEqual(output, _romanNumeral.Convert(input));
+        }
+
+        [TestCase("I", 1)]
+        [TestCase("II", 2)]
+        [TestCase("III", 3)]
+        [TestCase("IV", 4)]
+        public void return_decimal_for_roman_numeral(string input, int output)
+        {
+            Assert.AreEqual(output, _romanNumeral.Modernise(input));
         }
     }
 }
