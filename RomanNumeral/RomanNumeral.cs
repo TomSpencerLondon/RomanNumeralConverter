@@ -10,6 +10,8 @@ namespace RomanNumerals
         {
             Dictionary<int, string> values = new Dictionary<int, string>
             {
+                {5, "V"},
+                {4, "IV"},
                 {1, "I"}
             };
 
@@ -24,10 +26,10 @@ namespace RomanNumerals
 
             foreach (var v in RomanValueKey())
             {
-                while (num > 0)
+                while (num >= v.Key)
                 {
                     result.Append(v.Value);
-                    num--;
+                    num -= v.Key;    
                 }
             }
 
