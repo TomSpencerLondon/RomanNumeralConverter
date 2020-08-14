@@ -1,0 +1,9 @@
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral/obj/Debug/RomanNumeral.csprojAssemblyReference.cache
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral/obj/Debug/RomanNumeral.csproj.CoreCompileInputs.cache
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral/bin/Debug/RomanNumeral.dll
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral/bin/Debug/RomanNumeral.pdb
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral/bin/Debug/nunit.framework.dll
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral/bin/Debug/nunit.framework.xml
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral/obj/Debug/RomanNumeral.csproj.CopyComplete
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral/obj/Debug/RomanNumeral.dll
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral/obj/Debug/RomanNumeral.pdb

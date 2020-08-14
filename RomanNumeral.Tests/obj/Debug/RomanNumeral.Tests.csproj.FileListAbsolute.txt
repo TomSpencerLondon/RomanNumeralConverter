@@ -1,0 +1,11 @@
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral.Tests/bin/Debug/RomanNumeral.Tests.dll
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral.Tests/bin/Debug/RomanNumeral.Tests.pdb
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral.Tests/bin/Debug/nunit.framework.dll
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral.Tests/bin/Debug/RomanNumeral.dll
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral.Tests/bin/Debug/RomanNumeral.pdb
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral.Tests/bin/Debug/nunit.framework.xml
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral.Tests/obj/Debug/RomanNumeral.Tests.csprojAssemblyReference.cache
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral.Tests/obj/Debug/RomanNumeral.Tests.csproj.CoreCompileInputs.cache
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral.Tests/obj/Debug/RomanNumeral.Tests.csproj.CopyComplete
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral.Tests/obj/Debug/RomanNumeral.Tests.dll
+/Users/tomspencer/Desktop/RomanNumerals/RomanNumerals/RomanNumeral.Tests/obj/Debug/RomanNumeral.Tests.pdb
