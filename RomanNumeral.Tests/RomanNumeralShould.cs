@@ -24,6 +24,10 @@ namespace RomanNumerals.Tests
         [TestCase("II", 2)]
         [TestCase("III", 3)]
         [TestCase("IV", 4)]
+        [TestCase("V", 5)]
+        [TestCase("VI", 6)]
+        [TestCase("XIV", 14)]
+        [TestCase("MCMXCIV", 1994)]
         public void return_decimal_for_roman_numeral(string input, int output)
         {
             Assert.AreEqual(output, _romanNumeral.Modernise(input));
